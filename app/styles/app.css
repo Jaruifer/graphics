@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Open Sans";
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0px;
+}
+
+.column {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    margin: 0px;
+}
+
+.hcenter {
+    justify-content: center;
+}
+
+.vcenter {
+    align-items: center;
+}
+
+.ccenter {
+    align-content: center;
+}
+
+.root {
+    background: lightgray;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    min-height: 40px;
+}
+
+.diagram {
+    height: 550px;
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+}
+
+canvas {
+    outline: none;
+}
+
+.save-icon {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.save-icon i {
+    font-size: 21px;
+}
+
+.save-icon span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.save-icon .fa-sync {
+    color: lightcoral;
+}
+
+.save-icon .fa-check-circle {
+    color: lightgreen;
+}
+
+.editor {
+    width: 100%;
+}
+
+.controls {
+    height: 100px;
+    background: #ffffff;
+}
+
+.controls-title {
+    font-size: 32px;
+    margin-right: 20px;
+}

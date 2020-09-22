@@ -1,0 +1,16 @@
+<Controls
+    @diagramChanged={{this.diagramChanged}} />
+<Diagram
+    @id="diagram"
+    @class="diagram"
+    @vertices={{this.model.vertices}}
+    @edges={{this.model.edges}}
+    @grid={{false}}
+    @allowZoom={{true}}
+    @undoManager={{true}}
+    @changeSaveIcon={{this.changeSaveIcon}} />
+<Summernote
+    class="editor"
+    @editors={{this.model.editors}}
+    @placeholder="Enter your code" />
+
